@@ -134,6 +134,8 @@ def find_campsites():
             check_availability()
         else:
             notify(URL)
+            # Adding quit here as we only want to stop the process when a campsite is found
+            driver.quit()
 
 
         # available_sites = driver.find_elements_by_class_name('available')
@@ -159,7 +161,6 @@ validate_options()
 # Start Searching
 find_campsites()
 
-#driver.quit()
 
 def login(username, password):
     pass
