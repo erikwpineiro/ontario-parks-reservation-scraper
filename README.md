@@ -13,7 +13,7 @@ Get notifications when sites become available at the Park and campground of your
 ### Config.py
 * Fill in the variables in the config.py to match your case
 * The Location and Campground must be spelled the way it appears on the reservations.ontarioparks.com website
-* Start Date and End Date shold be in yyyy-MM-dd format
+* Start Date and End Date should be in yyyy-MM-dd format
 * *TIME\_TO\_RETRY *, in the case that no available campsites are found, is the amount of time in seconds before trying to find available sites again
 * For the email address password, use an app password
 
