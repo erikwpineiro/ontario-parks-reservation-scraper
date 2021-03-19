@@ -12,7 +12,7 @@ def send_email(URL):
       f"To: {op.EMAIL}",
       f"Subject: There are one or more available campsites at {op.LOCATION}!",
       "",
-      f"Click of the link to reserve your spot now.\n{URL}"
+      f"Click on the link below to reserve your spot now.\n{URL}"
       ])
 
     server.login(op.EMAIL, op.APP_PASS)
